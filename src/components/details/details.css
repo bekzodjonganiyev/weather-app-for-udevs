@@ -1,0 +1,13 @@
+.details {
+  padding: 50px 20px 50px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.412);
+}
+
+.details li {
+  margin: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
