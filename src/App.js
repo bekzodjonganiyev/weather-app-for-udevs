@@ -40,17 +40,14 @@ function App() {
         </p>
         <div>
           <p className="name">{weatherData.name}</p>
-          <p className="time" style={{marginTop:"10px"}}>{weatherData.name}</p>
+          <p className="time" style={{marginTop:"10px"}}>{weatherData.dt}</p>
         </div>
         <div>
           <img
             className="icon"
             src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
             alt="weather-icon"
-            width="60"
-            height="auto"
           />
-          <p className="main">{weatherData.weather[0].main}</p>
         </div>
       </div>
     );
