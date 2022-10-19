@@ -25,7 +25,11 @@ function App() {
     weatherData.length !== 0 && weatherData?.weather[0]?.main === "Clear";
   const forError = weatherData.length === 0 && weatherErrorData.length !== 0;
   console.log(weatherData);
+  
   let content;
+  const date = new Date()
+  const h = date.getHours(), m = date.getMinutes()
+
 
   if (loadingStatus === "loading") {
     content = <p>Loading...</p>;
@@ -40,7 +44,7 @@ function App() {
         </p>
         <div>
           <p className="name">{weatherData.name}</p>
-          <p className="time" style={{marginTop:"10px"}}>{weatherData.dt}</p>
+          <p className="time" style={{marginTop:"10px"}}> { h + ":" + m }</p>
         </div>
         <div>
           <img
