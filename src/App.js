@@ -40,7 +40,7 @@ function App() {
         </p>
         <div>
           <p className="name">{weatherData.name}</p>
-          <p className="time" style={{marginTop:"10px"}}>{weatherData}</p>
+          <p className="time" style={{marginTop:"10px"}}>{weatherData.name}</p>
         </div>
         <div>
           <img
