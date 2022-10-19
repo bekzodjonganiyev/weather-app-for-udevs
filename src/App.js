@@ -4,7 +4,7 @@ import "./assets/main.css";
 
 import { SearchInput } from "./components/searchInput/SearchInput";
 import Details from "./components/details/Details";
-import sunny from "./assets/images/sunny.jpg";
+import sunny from "./assets/images/sunnyjpg.jpg";
 import rainy from "./assets/images/rainy.jpg";
 import snowy from "./assets/images/snowy.jpg";
 import cloudy from "./assets/images/cloudty.jpg";
